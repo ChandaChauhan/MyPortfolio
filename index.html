@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chanda Chauhan – Full Stack Developer</title>
+<meta name="description" content="Chanda Chauhan is a full stack developer with 3+ years of experience in React.js, .NET Core, ASP.NET MVC and SQL Server.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #EAEFF3;
+    --ink: #101C2E;
+    --muted: #55637A;
+    --line: #C5CFDA;
+    --accent: #2447E8;
+    --display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink); font: 400 1.05rem/1.65 var(--body); -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+  .wrap { max-width: 920px; margin: 0 auto; padding: 0 1.5rem; }
+
+  header.top { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 0; flex-wrap: wrap; gap: .5rem; }
+  header.top strong { font-family: var(--display); font-weight: 700; }
+  nav a { margin-left: 1.5rem; text-decoration: none; color: var(--muted); }
+  nav a:hover { color: var(--accent); }
+
+  .hero { padding: 6rem 0 5rem; }
+  .hero h1 { font: 700 clamp(2.8rem, 9vw, 6.2rem)/0.98 var(--display); letter-spacing: -0.035em; max-width: 15ch; }
+  .hero p { margin-top: 2rem; max-width: 56ch; color: var(--muted); font-size: 1.2rem; }
+  .cta { display: inline-block; margin-top: 2rem; margin-right: .75rem; padding: .8rem 1.4rem; background: var(--accent); color: #fff; text-decoration: none; border-radius: 6px; font-weight: 500; }
+  .cta:hover { background: var(--ink); }
+  .cta:focus-visible { outline-color: var(--ink); }
+  .cta.alt { background: transparent; color: var(--ink); border: 1px solid var(--ink); }
+  .cta.alt:hover { background: var(--ink); color: #fff; }
+
+  section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+  h2 { font: 700 1.6rem/1.2 var(--display); letter-spacing: -0.01em; margin-bottom: 2rem; }
+
+  .job h3, .project h3 { font: 500 1.35rem/1.3 var(--display); }
+  .meta { color: var(--muted); font-size: .95rem; }
+  .job header, .project header { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; align-items: baseline; }
+  ul.points { margin: .9rem 0 0 1.1rem; max-width: 66ch; }
+  ul.points li { margin-bottom: .4rem; }
+  .project { padding: 1.6rem 0; border-bottom: 1px solid var(--line); }
+  .project:first-of-type { border-top: 1px solid var(--line); }
+  .stack { color: var(--accent); font-weight: 500; font-size: .95rem; }
+
+  .skills { display: grid; grid-template-columns: 11rem 1fr; gap: .9rem 2rem; }
+  .skills dt { font-weight: 500; }
+  .skills dd { color: var(--muted); }
+
+  .edu { list-style: none; }
+  .edu li { padding: 1rem 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .edu li:first-child { border-top: 1px solid var(--line); }
+  .edu span { color: var(--muted); }
+
+  .contact a.mail { font: 700 clamp(1.4rem, 5vw, 2.4rem)/1.2 var(--display); text-decoration: none; color: var(--accent); overflow-wrap: anywhere; }
+  .contact a.mail:hover { text-decoration: underline; }
+  .links { margin-top: 1.5rem; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+  footer { padding: 2.5rem 0; color: var(--muted); font-size: .9rem; }
+
+  @media (max-width: 640px) {
+    .skills { grid-template-columns: 1fr; gap: .2rem; }
+    .skills dd { margin-bottom: .8rem; }
+    nav a { margin: 0 1rem 0 0; }
+    .hero { padding: 4rem 0 3rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <strong>Chanda Chauhan</strong>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>I build business software from database to browser.</h1>
+      <p>I’m a full stack developer with 3+ years of experience building CRM, expense management and e-commerce applications with React.js, .NET Core and SQL Server. I take modules from requirements to deployment on IIS.</p>
+      <a class="cta" href="#projects">See my projects</a><a class="cta alt" href="#contact">Get in touch</a>
+    </div>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="job">
+        <header>
+          <h3>Software Developer, Spring Time Software Solutions Pvt. Ltd.</h3>
+          <span class="meta">May 2023 – Present</span>
+        </header>
+        <ul class="points">
+          <li>Built and maintained CRM visit management and expense claim modules in ASP.NET MVC and SQL Server.</li>
+          <li>Implemented a claim approval workflow and TA/DA expense calculation, replacing manual approval handling.</li>
+          <li>Optimized SQL queries, stored procedures and views, improving business report performance.</li>
+          <li>Developed Excel export reporting for operations teams, replacing manual data compilation.</li>
+          <li>Resolved production issues and backend data corrections with minimal downtime.</li>
+          <li>Worked directly with users and stakeholders to gather requirements and validate fixes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <header>
+          <h3>Samarth: CRM and expense management</h3>
+          <span class="stack">ASP.NET MVC, SQL Server</span>
+        </header>
+        <ul class="points">
+          <li>Developed the Title, Sponsorship and Workshop Management modules.</li>
+          <li>Implemented claim approval workflow and expense tracking.</li>
+          <li>Wrote stored procedures, reports and backend business logic.</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <header>
+          <h3>CloudPub: publishing platform</h3>
+          <span class="stack">.NET Web API, React.js, SQL Server, IIS</span>
+        </header>
+        <ul class="points">
+          <li>Built book search and filtering across multiple categories.</li>
+          <li>Developed SEO landing pages and optimized reporting procedures using CTEs and STRING_AGG.</li>
+          <li>Fixed IIS and Web.config issues for stable production releases.</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <header>
+          <h3>Pilgrim Book House: online bookstore</h3>
+          <span class="stack">.NET Web API, SQL Server</span>
+        </header>
+        <ul class="points">
+          <li>Developed SEO APIs and admin screens to manage SEO metadata.</li>
+          <li>Improved content organization and search visibility.</li>
+        </ul>
+      </article>
+
+      <article class="project">
+        <header>
+          <h3>Eazyshopee: school book purchase platform</h3>
+          <span class="stack">ASP.NET (ASPX), .NET Web API, SQL Server</span>
+        </header>
+        <ul class="points">
+          <li>Built school registration and online book purchase workflows.</li>
+          <li>Developed backend APIs, SQL database logic and ASPX pages for school selection and checkout.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <dt>Languages</dt><dd>C#, C, SQL, JavaScript</dd>
+        <dt>Backend</dt><dd>ASP.NET MVC, .NET Core, Web API, REST API integration</dd>
+        <dt>Frontend</dt><dd>React.js, HTML5, CSS3, Bootstrap</dd>
+        <dt>Database</dt><dd>SQL Server, stored procedures, views, CTEs, query optimization</dd>
+        <dt>Tools and deployment</dt><dd>Git/GitHub, Visual Studio, IIS, Web.config configuration</dd>
+        <dt>Domain</dt><dd>CRM development, Excel report generation, debugging, production support</dd>
+      </dl>
+    </section>
+
+    <section id="education">
+      <h2>Education and training</h2>
+      <ul class="edu">
+        <li><div>B.Tech, Institute of Technology and Management (ITM), Meerut</div><span>2023 – 2026</span></li>
+        <li><div>Diploma in Computer Science and Engineering, Government Girls Polytechnic, Gorakhpur (79%)</div><span>2019 – 2022</span></li>
+        <li><div>Apprenticeship Training in ASP.NET and SQL Server, Techpile Technology, Lucknow</div><span>2022 – 2023</span></li>
+        <li><div>Summer Training in .NET Development, Techpile Technology, Lucknow</div><span>2021</span></li>
+      </ul>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <a class="mail" href="mailto:chandachauhan1805@gmail.com">chandachauhan1805@gmail.com</a>
+      <div class="links">
+        <a href="https://github.com/ChandaChauhan" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/chanda-chauhan" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Chanda Chauhan</footer>
+</div>
+</body>
+</html>
